@@ -39,6 +39,9 @@ export function Editor() {
   return (
     <>
       <EditorContent className="max-w-[700px] mx-auto pt-16 prose prose-invert prose-violet" editor={editor} />
+      {editor &&
+        <FloatingMenu editor={editor}></FloatingMenu>
+      }
       {editor && (
         <BubbleMenu className="bg-zinc-700 shadow-xl boder border-zinc-600 shadow-black/20 rounded-lg overflow-hidden flex divide-x divide-zinc-600" editor={editor}>
           <BubbleButton>
