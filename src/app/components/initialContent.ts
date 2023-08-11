@@ -10,6 +10,12 @@ export const initialContent = `
 <h2>1. Rapid Development Speed</h2>
 <p>Tailwind CSS's utility classes allow developers to style elements by merely adding classes to HTML tags. This eliminates the need to write custom CSS for every styling requirement, significantly reducing development time. With a comprehensive set of utility classes, tasks that once took hours can now be accomplished in a matter of minutes.</p>
 
+<pre>
+  <code class="language-javascript">
+    console.log("Hello world");
+  </code>
+</pre>
+
 <h2>2. Design Consistency</h2>
 <p>Maintaining design consistency across a web project can be challenging, especially when multiple developers are involved. Tailwind's standardized utility classes promote uniformity, ensuring that styling decisions remain cohesive throughout the project. This consistency helps in creating a polished and professional user experience.</p>
 
